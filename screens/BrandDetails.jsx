@@ -24,7 +24,7 @@ const BrandDetailScreen = ({ route }) => {
 
   if (isLoading) {
     return (
-      //for showing loading
+      //for showing loading state
       <LinearGradient colors={Colors.secondaryGradient} style={styles.loadingContainer}>
         <ActivityIndicator size="large" color={Colors.button} />
       </LinearGradient>
